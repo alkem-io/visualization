@@ -1,9 +1,24 @@
-/*! 
-  Alkemio Visualization v1.0.0
-  ----------------------------------------
-  Copyright (c) 2022 Alkemio Foundation.
-  Homepage: https://alkemio.foundation
-  Released under the EUPL-1.2 License.
+/*!
+ * Sizzle CSS Selector Engine v2.3.6
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://js.foundation/
+ *
+ * Date: 2021-02-16
+ */
 
-  License information can be found in LICENSE.txt.
+/*!
+ * jQuery JavaScript Library v3.6.1
+ * https://jquery.com/
+ *
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2022-08-26T17:52Z
  */

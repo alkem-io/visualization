@@ -1,1 +1,2 @@
-export * from './modules/MyButton';
+export * from './modules/MyButton/MyButton';
+export * from './modules/LifecycleVisualization';

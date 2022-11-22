@@ -12,6 +12,7 @@
     "declarationDir": "./dist",
     "sourceMap": true,
     "module": "ESNext",
+    "resolveJsonModule": true,
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
