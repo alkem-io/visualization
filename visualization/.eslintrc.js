@@ -15,10 +15,10 @@ module.exports = {
     'import',
   ],
   settings: {
-    // To kill annoyed React warning:
+    // To kill annoying React warning:
     // https://github.com/DRD4-7R/eslint-config-7r-building/issues/1#issuecomment-714491844
     react: {
-      version: '999.999.999',
+      version: 'latest',
     },
   },
   rules: {

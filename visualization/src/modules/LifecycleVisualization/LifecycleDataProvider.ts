@@ -13,9 +13,9 @@ export class LifecycleDataProvider {
 
   constructor() {}
 
+
   async loadData(jsonData: string) {
     this.machineDef = JSON.parse(jsonData);
-
 
     this.machine = createMachine(this.machineDef);
     this.graph = toDirectedGraph(this.machine);
@@ -26,13 +26,11 @@ export class LifecycleDataProvider {
  }
 
   async loadUrl(jsonDataFileLocation: string) {
-     this.machineDef = await d3.json(jsonDataFileLocation);
+    this.machineDef = await d3.json(jsonDataFileLocation);
 
-
-     this.machine = createMachine(this.machineDef);
-     this.graph = toDirectedGraph(this.machine);
-     this.updateState(this.machine.initialState);
-
+    this.machine = createMachine(this.machineDef);
+    this.graph = toDirectedGraph(this.machine);
+    this.updateState(this.machine.initialState);
 
     return this.machineDef;
   }

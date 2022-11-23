@@ -24,6 +24,10 @@ const configs = {
       },
     ],
   },
+  performance: {
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+  },
   resolve: {
     extensions: ['.ts', '.js', '.json'],
     alias: {

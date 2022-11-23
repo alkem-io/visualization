@@ -10,8 +10,10 @@
 # Alkemio Visualization Components
 
 ## Usage
+For a comfortable development experience run `npm start` on both folders.
+That will leave webpack watching for file changes in the library and in the web demo-application, and will reload the page on every change.
 
-## Connectivity Graph
+
 
 
 
