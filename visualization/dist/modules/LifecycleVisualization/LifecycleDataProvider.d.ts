@@ -5,7 +5,8 @@ export declare class LifecycleDataProvider {
     graph: any;
     state: string;
     constructor();
-    loadData(jsonData: string): Promise<any>;
-    loadUrl(jsonDataFileLocation: string): Promise<any>;
+    static validateLifecycleDefinition(jsonData: string): boolean;
+    loadData(jsonData: string): Promise<LifecycleDataProvider>;
+    loadUrl(jsonDataFileLocation: string): Promise<LifecycleDataProvider>;
     updateState(newState: string): void;
 }
