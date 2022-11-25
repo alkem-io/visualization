@@ -14,10 +14,7 @@ export class LifecycleDataProvider {
   constructor() {}
 
   static validateLifecycleDefinition(jsonData: string): boolean {
-    if (!jsonData) {
-      throw new Error('Definition is empty');
-    }
-
+    if (!jsonData) return false;
     try {
       const jsonDef = JSON.parse(jsonData);
       const machine = createMachine(jsonDef);

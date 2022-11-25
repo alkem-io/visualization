@@ -1,7 +1,7 @@
 {
   "name": "@alkemio/visualization",
   "displayName": "Alkemio Visualization",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Alkemio Visualization Component Library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
